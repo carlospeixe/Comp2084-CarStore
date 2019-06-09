@@ -29,5 +29,7 @@ namespace Comp2084_CarStore.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Comp2084_CarStore.Models.Car> Cars { get; set; }
     }
 }
